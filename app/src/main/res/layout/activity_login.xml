@@ -32,7 +32,7 @@
         tools:layout_editor_absoluteX="10dp" />
 
     <EditText
-        android:id="@+id/email_reg"
+        android:id="@+id/email_log"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="email"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/password_reg"
+        android:id="@+id/password_log"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="******"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/email_reg" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_log"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
